@@ -1,3 +1,0 @@
-This is guys is very stupid
-
-iTextSharp has built-in support for the 14 Type 1 fonts: Courier, Courier Bold, Courier Italic, Courier Bold and Italic, Helvetica, Helvetica Bold, Helvetica Italic, Helvetica Bold and Italic, Times Roman, Times Roman Bold, Times Roman Italic, Times Roman Bold and Italic, Symbol, ZapfDingBats®. Helvetica translates more or less to Windows Arial font, while Times Roman has an equivalent in Times New Roman. The default font is Helvetica, 12pt, black in the style typically known as Normal.
