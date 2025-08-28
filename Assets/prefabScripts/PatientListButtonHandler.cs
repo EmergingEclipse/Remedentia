@@ -15,13 +15,15 @@ public class PatientListButtonHandler : MonoBehaviour
     private string patientName;
 
 
-    public void DisplayChosenPatientName(){
+    public void DisplayChosenPatientName()
+    {
         convert();
         PatientText.text = patientName;
     }
 
 
-    public void convert(){
+    public void convert()
+    {
         patientName = ChosenPatientText.text.Trim();
     }
 

@@ -14,7 +14,7 @@ public class AddPatientsWithButtons : MonoBehaviour
     public GameObject buttonPatientPrefab;
     public Transform scrollViewPatientContent;
     private bool isLoaded = false;
-
+    // preloading all patients in patient lists
     public void LoadPatients()
     {
         if (isLoaded == false){

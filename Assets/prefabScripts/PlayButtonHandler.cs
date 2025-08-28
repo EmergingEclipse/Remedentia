@@ -15,16 +15,19 @@ public class PlayButtonHandler : MonoBehaviour
     public Image buttonIcon;
     public void PlayOrPause()
     {
-        if (audioSource.clip != null){
-            if (audioSource.isPlaying){
+        if (audioSource.clip != null)
+        {
+            if (audioSource.isPlaying)
+            {
                 audioSource.Pause();
                 buttonIcon.GetComponent<Image>().sprite = playButton;
             }
-            else{
+            else
+            {
                 audioSource.Play();
                 buttonIcon.GetComponent<Image>().sprite = pauseButton;
             }
-        }   
+        }
     }
 
 
